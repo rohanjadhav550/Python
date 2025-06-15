@@ -28,3 +28,10 @@ for i in range(2,20):
         break
     print(i)
 print()
+
+# Nested for loop
+for i in range(0,20):
+    for f in range(10,20):
+        if i==f:
+            print(f)
+print()
